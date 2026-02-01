@@ -1,0 +1,6 @@
+name: "test-bot"
+python: "3.11"
+dependencies:
+  - requests
+  - rich
+  - robocorp-tasks

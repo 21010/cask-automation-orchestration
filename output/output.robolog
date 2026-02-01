@@ -1,0 +1,213 @@
+V 0.0.4
+T 2026-01-28T20:47:37.864+00:00
+ID 1|94ae7c99-fc8a-11f0-bb43-3c9c0f7da902
+I "sys.platform=win32"
+I "python=3.11.13 (main, Sep  2 2025, 14:14:37) [MSC v.1944 64 bit (AMD64)]"
+M a:"robot.py - my_task"
+SR a|0.006
+M c:"Collect tasks"
+M d:"setup"
+M e:""
+P b:c|d|e|e|0
+ST b|0.006
+M f:"regular"
+M g:"\nCollecting task my_task from: robot.py\n"
+C f|g|0.007
+M h:"PASS"
+ET h|e|0.025
+M j:"my_task"
+M k:"robot"
+M l:"C:\\Users\\Grzegorz\\Desktop\\Portfolio\\cask\\robot.py"
+M m:null
+P i:j|k|l|m|6
+ST i|0.025
+M n:"=============================== "
+C f|n|0.025
+M o:"Running: "
+C f|o|0.025
+M p:"task_name"
+C p|j|0.025
+M q:" ===============================\n"
+C f|q|0.026
+M r:"METHOD"
+SE i|r|0.027
+M s:"name"
+M t:"str"
+M u:"'Joe'"
+EA s|t|u
+M v:"age"
+M w:"'12'"
+EA v|t|w
+M x:"stdout"
+M y:"Hello Joe you are 12 years old"
+C x|y|0.027
+M z:"\n"
+C x|z|0.027
+M A:"--------------------------------"
+C x|A|0.027
+C x|z|0.027
+M B:"Key from Env: secret_12345"
+C x|B|0.027
+C x|z|0.027
+C x|A|0.028
+C x|z|0.028
+EE r|h|0.028
+C p|j|0.029
+M C:" status: "
+C f|C|0.029
+M D:"PASS\n"
+C f|D|0.029
+M E:"================================================================================\n"
+C f|E|0.029
+ET h|e|0.029
+M G:"Teardown tasks"
+M H:"teardown"
+P F:G|H|e|e|0
+ST F|0.029
+M I:"Process snapshot"
+SPS I|0.03
+M J:"System information:\nMemory: Total: 31.3 G, Available: 16.1 G, Used: 48.5 %\nCPUs: 16"
+P K:e|e|e|e|0
+L I|J|K|0|0.073
+M L:"Current Process: python.exe (pid: 33380, status: running)\nCommand Line: C:\\Users\\Grzegorz\\AppData\\Roaming\\uv\\python\\cpython-3.11.13-windows-x86_64-none\\python.exe -m robocorp.tasks run robot.py -t my_task -- --name Joe --age 12\nStarted: 21:47:37\nParent pid: 23176\nResident Set Size: 24.3 M\nVirtual Memory Size: 17.9 M"
+L I|L|K|0|0.1
+M M:"MainThread|Thread ID: 2152 (non daemon)"
+STD M|0.1
+M N:"C:\\Users\\Grzegorz\\.cask\\holotree\\b20c4e3889a696b9\\.venv\\Lib\\site-packages\\robocorp\\log\\__init__.py"
+M O:"process_snapshot"
+M P:"robo_logger.process_snapshot()"
+TBE N|268|O|P
+M Q:"logger_instances"
+M R:"dict"
+M S:"{<robocorp.log._robo_logger._RoboLogger object at 0x000001EFB3307D50>: 1}"
+TBV Q|R|S
+M T:"robo_logger"
+M U:"_RoboLogger"
+M V:"<robocorp.log._robo_logger._RoboLogger object at 0x000001EFB3307D50>"
+TBV T|U|V
+M W:"C:\\Users\\Grzegorz\\.cask\\holotree\\b20c4e3889a696b9\\.venv\\Lib\\site-packages\\robocorp\\log\\_robo_logger.py"
+M X:"new_func"
+M Y:"return func(self, *args, **kwargs)"
+TBE W|20|X|Y
+M Z:"self"
+TBV Z|U|V
+M 0:"args"
+M 1:"tuple"
+M 2:"()"
+TBV 0|1|2
+M 3:"kwargs"
+M 4:"{}"
+TBV 3|R|4
+M 5:"func"
+M 6:"function"
+M 7:"<function _RoboLogger.process_snapshot at 0x000001EFB330FC40>"
+TBV 5|6|7
+M 8:"return self._robot_output_impl.process_snapshot(hide_vars)"
+TBE W|416|O|8
+TBV Z|U|V
+M 9:"hide_vars"
+M aa:"bool"
+M ab:"False"
+TBV 9|aa|ab
+M ac:"C:\\Users\\Grzegorz\\.cask\\holotree\\b20c4e3889a696b9\\.venv\\Lib\\site-packages\\robocorp\\log\\_robo_output_impl.py"
+M ad:"self._dump_threads(hide_vars)"
+TBE ac|747|O|ad
+M ae:"_RoboOutputImpl"
+M af:"<robocorp.log._robo_output_impl._RoboOutputImpl object at 0x000001EFB332E250>"
+TBV Z|ae|af
+TBV 9|aa|ab
+M ag:"log"
+M ah:"module"
+M ai:"<module 'robocorp.log' from 'C:\\\\Users\\\\Grzegorz\\\\.cask\\\\holotree\\\\b20c4e3889a696b9\\\\.venv\\\\Lib\\\\site-packages\\\\robocorp\\\\log\\\\__init__.py'>"
+TBV ag|ah|ai
+M aj:"entry_id"
+M ak:"'ps_0'"
+TBV aj|t|ak
+M al:"entry_type"
+M am:"'process_snapshot'"
+TBV al|t|am
+M an:"psutil"
+M ao:"<module 'psutil' from 'C:\\\\Users\\\\Grzegorz\\\\.cask\\\\holotree\\\\b20c4e3889a696b9\\\\.venv\\\\Lib\\\\site-packages\\\\psutil\\\\__init__.py'>"
+TBV an|ah|ao
+M ap:"AccessDenied"
+M aq:"type"
+M ar:"<class 'psutil.AccessDenied'>"
+TBV ap|aq|ar
+M as:"NoSuchProcess"
+M at:"<class 'psutil.NoSuchProcess'>"
+TBV as|aq|at
+M au:"ZombieProcess"
+M av:"<class 'psutil.ZombieProcess'>"
+TBV au|aq|av
+M aw:"curr_process"
+M ax:"Process"
+M ay:"psutil.Process(pid=33380, name='python.exe', status='running', started='21:47:37')"
+TBV aw|ax|ay
+M az:"log_info"
+M aA:"<function _RoboOutputImpl.process_snapshot.<locals>.log_info at 0x000001EFB335D580>"
+TBV az|6|aA
+M aB:"memory_info"
+M aC:"'Total: 31.3 G, Available: 16.1 G, Used: 48.5 %'"
+TBV aB|t|aC
+M aD:"child_i"
+M aE:"int"
+M aF:"0"
+TBV aD|aE|aF
+M aG:"child"
+TBV aG|ax|ay
+M aH:"'python.exe'"
+TBV s|t|aH
+M aI:"status"
+M aJ:"'running'"
+TBV aI|t|aJ
+M aK:"create_time"
+M aL:"'21:47:37'"
+TBV aK|t|aL
+M aM:"ppid"
+M aN:"'23176'"
+TBV aM|t|aN
+M aO:"cmdline"
+M aP:"'C:\\\\Users\\\\Grzegorz\\\\AppData\\\\Roaming\\\\uv\\\\python\\\\cpython-3.11.13-windows-x86_64-none\\\\python.exe -m robocorp.tasks run robot.py -t my_task -- --name Joe --age 12'"
+TBV aO|t|aP
+M aQ:"rss"
+M aR:"'24.3 M'"
+TBV aQ|t|aR
+M aS:"vms"
+M aT:"'17.9 M'"
+TBV aS|t|aT
+M aU:"proc_memory_info"
+M aV:"pmem"
+M aW:"pmem(rss=25493504, vms=18800640, num_page_faults=9218, peak_wset=26193920, wset=25493504, peak_paged_pool=149552, paged_pool=149376, peak_nonpaged_pool=14664, nonpaged_pool=14528, pagefile=18800640, peak_pagefile=18800640, private=18800640)"
+TBV aU|aV|aW
+M aX:"message"
+M aY:"'Current Process: python.exe (pid: 33380, status: running)\\nCommand Line: C:\\\\Users\\\\Grzegorz\\\\AppData\\\\Roaming\\\\uv\\\\python\\\\cpython-3.11.13-windows-x86_64-none\\\\python.exe -m robocorp.tasks run robot.py -t my_task -- --name Joe --age 12\\nStarted: 21:47:37\\nParent pid: 23176\\nResident Set Size: 24.3 M\\nVirtual Memory Size: 17.9 M'"
+TBV aX|t|aY
+M aZ:"_dump_threads"
+M a0:"stack.append((f, f.f_lineno))"
+TBE ac|768|aZ|a0
+TBV Z|ae|af
+TBV 9|aa|ab
+M a1:"thread_id"
+M a2:"2152"
+TBV a1|aE|a2
+M a3:"frame"
+M a4:"<frame at 0x000001EFB1743010, file 'C:\\\\Users\\\\Grzegorz\\\\.cask\\\\holotree\\\\b20c4e3889a696b9\\\\.venv\\\\Lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_output_impl.py', line 772, code _dump_threads>"
+TBV a3|a3|a4
+M a5:"thread"
+M a6:"_MainThread"
+M a7:"<_MainThread(MainThread, started 2152)>"
+TBV a5|a6|a7
+M a8:"title"
+M a9:"'MainThread|Thread ID: 2152 (non daemon)'"
+TBV a8|t|a9
+M ba:"f"
+M bb:"<frame at 0x000001EFB1809870, file 'C:\\\\Users\\\\Grzegorz\\\\.cask\\\\holotree\\\\b20c4e3889a696b9\\\\.venv\\\\Lib\\\\site-packages\\\\robocorp\\\\tasks\\\\_commands.py', line 494, code run>"
+TBV ba|a3|bb
+M bc:"stack"
+M bd:"list"
+M be:"[(<frame at 0x000001EFB3352670, file 'C:\\\\Users\\\\Grzegorz\\\\.cask\\\\holotree\\\\b20c4e3889a696b9\\\\.venv\\\\Lib\\\\site-packages\\\\robocorp\\\\log\\\\__init__.py', line 268, code process_snapshot>, 268), (<frame at 0x000001EFB32FB140, file 'C:\\\\Users\\\\Grzegorz\\\\.cask\\\\holotree\\\\b20c4e3889a696b9\\\\.venv\\\\Lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_logger.py', line 20, code new_func>, 20), (<frame at 0x000001EFB33589E0, file 'C:\\\\Users\\\\Grzegorz\\\\.cask\\\\holotree\\\\b20c4e3889a696b9\\\\.venv\\\\Lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_logger.py', line 416, code process_snapshot>, 416), (<frame at 0x000001EFB3418040, file 'C:\\\\Users\\\\Grzegorz\\\\.cask\\\\holotree\\\\b20c4e3889a696b9\\\\.venv\\\\Lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_output_impl.py', line 747, code process_snapshot>, 747), (<frame at 0x000001EFB1743010, file 'C:\\\\Users\\\\Grzegorz\\\\.cask\\\\holotree\\\\b20c4e3889a696b9\\\\.venv\\\\Lib\\\\site-packages\\\\robocorp\\\\log\\\\_robo_output_impl.py', line 772, code _dump_threads>, 768)]"
+TBV bc|bd|be
+ETD 0.117
+EPS 0.117
+ET h|e|0.117
+ER h|0.117

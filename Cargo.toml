@@ -1,0 +1,27 @@
+[package]
+name = "cask"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# CLI & Terminal
+clap = { version = "4.4", features = ["derive"] }
+colored = "2.0"       # For nice output colors
+indicatif = "0.17"    # For progress bars (downloading uv)
+
+# Logic & Utils
+anyhow = "1.0"        # Error handling made easy
+sha2 = "0.10"         # Hashing for Holotree
+hex = "0.4"
+directories = "5.0"   # Finding ~/.cask across OSs
+
+# Bootstrapping (Downloading/Unpacking)
+reqwest = { version = "0.11", features = ["blocking", "rustls-tls"] }
+flate2 = "1.0"        # For .tar.gz (Linux/Mac)
+tar = "0.4"           # For .tar (Linux/Mac)
+zip = "0.6"           # For .zip (Windows)
+tempfile = "3.8"
+
+serde = { version = "1.0", features = ["derive"] }
+serde_yaml = "0.9"
+dotenvy = "0.15"
