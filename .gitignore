@@ -1,1 +1,18 @@
+# Rust
 /target
+**/*.rs.bk
+*.pdb
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+
+# Project specific
+.env
+output/
+.idea/
+*.log
